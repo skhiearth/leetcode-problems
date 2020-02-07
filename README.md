@@ -1,2 +1,2 @@
 # leetcode-problems
-Solutions of Leetcode problems, grouped according to difficulty.
+Solutions of Leetcode problems, grouped according to challenge type and difficulty.
