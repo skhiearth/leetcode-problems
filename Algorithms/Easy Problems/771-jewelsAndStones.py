@@ -20,13 +20,10 @@ Note:
 
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
-        jewels = []
         noOfJewels = 0
-        for i, v in enumerate(J): 
-            jewels.append(v)
-            
+        
         for i, v in enumerate(S): 
-            if v in jewels:
+             if(v in J):
                 noOfJewels = noOfJewels + 1
         
         return noOfJewels
