@@ -22,7 +22,7 @@ class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
         noOfJewels = 0
         
-        for i, v in enumerate(S): 
+        for _i, v in enumerate(S): 
              if(v in J):
                 noOfJewels = noOfJewels + 1
         

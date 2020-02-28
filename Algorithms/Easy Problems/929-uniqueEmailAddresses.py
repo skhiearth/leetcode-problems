@@ -28,10 +28,11 @@ Note:
 '''
 
 class Solution:
-    def numUniqueEmails(self, emails: List[str]) -> int:
+    def numUniqueEmails(self, emails) -> int:
         email = set()
         for str in emails:
             local, domain = str.split("@")
             local = local.replace(".", "").split("+")[0]
             email.add(local + '@' + domain)
         return len(email)
+        
